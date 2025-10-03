@@ -1,0 +1,15 @@
+/* Mobile layout */
+body {
+    font-size: 14px;
+}
+
+nav a {
+    display: block;  /* stack nav links vertically */
+    margin: 10px 0;
+}
+
+main article, form {
+    width: 95%;
+    margin: 10px auto;
+    padding: 20px;
+}
