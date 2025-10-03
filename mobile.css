@@ -1,18 +1,22 @@
-/* Mobile layout */
-body {
+ body {
     font-size: 14px;
 }
 
-
 nav a {
-    display: inline-block;   
-    margin: 0 8px;           
-    font-size: 14px;        
-    white-space: nowrap;     
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
-main article, form {
+main article,
+form {
     width: 95%;
     margin: 10px auto;
-    padding: 20px;
+    padding: 15px;
 }
+
+h2 {
+    font-size: 18px;
+}
+
