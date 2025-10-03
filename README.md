@@ -1,3 +1,14 @@
+Personal Portfolio Website
+Project Overview
+This is a personal portfolio website created as part of my HTML5 and CSS3 assignment.
+It showcases my academic work, skills, and projects in a professional format.
+The website includes four main pages:
+Home – Introduction and welcome page.
+About Me – Contains my profile picture, a short bio, and an introduction video.
+Projects – Highlights at least four projects with short descriptions.
+Contact Me – Includes a functional contact form with validation.
+The site demonstrates semantic HTML5, responsive design with CSS3, accessibility, and deployment using GitHub Pages.
+
 GUI/Interface:
 The website is fully responsive using fluid design and media queries.
 I did not use Flexbox, as it is not part of the course requirement. Instead, I relied on inline-block, percentages, and separate CSS files for different viewport sizes.
