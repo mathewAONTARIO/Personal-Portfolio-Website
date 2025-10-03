@@ -3,14 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio | About Me</title>
+    <title>About Me - Mathew Arogbo</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #333;
+        }
 
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width:768px)">
-    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:769px) and (max-width:1024px)">
-    <link rel="stylesheet" href="laptop.css" media="only screen and (min-width:1025px)">
+        /* Header */
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); 
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* About container with angled gradient */
+        .about-container {
+            padding: 30px;
+            text-align: center;
+            background: linear-gradient(45deg, #6a11cb, #2575fc); 
+            color: white;
+            border-radius: 10px;
+            margin: 20px;
+        }
+        .about-text, .about-media {
+            display: inline-block;
+            vertical-align: top;
+            width: 45%;
+            margin: 2%;
+        }
+
+        /* Profile image */
+        .about-media img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+        }
+
+        /* Intro video */
+        .about-media video {
+            margin-top: 20px;
+            border: 3px solid #ffc0cb;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        /* Text */
+        .about-text {
+            text-align: left;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(to right, #ff7e5f, #feb47b); 
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .about-text, .about-media {
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+            }
+        }
+    </style>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
             <a href="index.html">Home</a>
@@ -20,29 +106,32 @@
         </nav>
     </header>
 
-    <main>
-        <article>
+    <!-- Main -->
+    <main class="about-container">
+        <div class="about-text">
             <h2>Hello, I am Mathew Arogbo</h2>
             <p>
                 Welcome to my portfolio website! I am a Network and IT security student at Ontario Tech University 
-                with a strong passion for technology, networking, and web development. I enjoy solving problems, 
-                building projects, and continuously learning new skills in IT.
+                with a strong passion for technology, networking, and web development. 
+                I enjoy solving problems, building projects, and continuously learning new skills in IT.
             </p>
-            <img src="Profile.JPG" alt="Profile Picture" width="200" height="200" style="border-radius:50%;object-fit:cover;box-shadow:0 0 8px rgba(0,0,0,0.3);">
+        </div>
 
+        <div class="about-media">
+            <img src="Profile.jpg" alt="Profile Picture">
             <h3>Introduction Video</h3>
-            <video controls poster="Profile.JPG" width="400">
+            <video controls poster="Profile.jpg">
                 <source src="intro.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-        </article>
+        </div>
     </main>
 
+    <!-- Footer -->
     <footer>
-        <p>© 2025 Mathew Arogbo | 
+        <p>© 2025 Mathew Arogbo | Contact: 
             <a href="mailto:mathew.arogbo@ontariotechu.net">mathew.arogbo@ontariotechu.net</a>
         </p>
     </footer>
 </body>
 </html>
-
