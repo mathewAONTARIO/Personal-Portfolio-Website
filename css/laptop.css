@@ -1,0 +1,15 @@
+/* Laptop/Desktop layout */
+body {
+    font-size: 18px;
+}
+
+nav a {
+    display: inline-block; 
+    margin: 0 20px;
+}
+
+main article, form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 25px;
+}
