@@ -1,17 +1,20 @@
-/* Tablet layout */
 body {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 nav a {
-    display: inline-block;  /* horizontal nav links */
+    display: inline-block;
     margin: 0 15px;
+    font-size: 16px;
 }
 
-main article, form {
-    width: 80%;
+main article,
+form {
+    width: 90%;
     margin: 15px auto;
-    padding: 22px;
+    padding: 20px;
 }
 
-
+h2 {
+    font-size: 20px;
+}
