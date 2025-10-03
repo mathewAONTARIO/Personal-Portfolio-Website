@@ -1,4 +1,4 @@
-GUI/Interface
+GUI/Interface:
 The website is fully responsive using fluid design and media queries.
 I did not use Flexbox, as it is not part of the course requirement. Instead, I relied on inline-block, percentages, and separate CSS files for different viewport sizes.
 The breakpoints and dimensions I used are:
