@@ -24,21 +24,33 @@
         <article>
             <h2>Get in Touch</h2>
             <form action="#" method="post">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <ul style="list-style-type: none; padding: 0;">
+                    <li>
+                        <label for="name"><strong>Your Name:</strong></label><br>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </li>
 
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    <li>
+                        <label for="email"><strong>Your Email:</strong></label><br>
+                        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                    </li>
 
-                <label for="phone">Cell No.:</label>
-                <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
-                       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-                       title="Format: 123-456-7890" required>
+                    <li>
+                        <label for="phone"><strong>Cell No.:</strong></label><br>
+                        <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
+                               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                               title="Format: 123-456-7890" required>
+                    </li>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    <li>
+                        <label for="message"><strong>Message:</strong></label><br>
+                        <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+                    </li>
 
-                <input type="submit" value="Submit">
+                    <li>
+                        <input type="submit" value="Submit">
+                    </li>
+                </ul>
             </form>
         </article>
     </main>
@@ -50,4 +62,5 @@
     </footer>
 </body>
 </html>
+
 
