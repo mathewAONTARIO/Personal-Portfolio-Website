@@ -3,9 +3,12 @@ body {
     font-size: 14px;
 }
 
+
 nav a {
-    display: block;  /* stack nav links vertically */
-    margin: 10px 0;
+    display: inline-block;   
+    margin: 0 8px;           
+    font-size: 14px;        
+    white-space: nowrap;     
 }
 
 main article, form {
